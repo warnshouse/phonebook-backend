@@ -1,0 +1,28 @@
+{
+  "name": "phonebook-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warnshouse/phonebook-backend.git"
+  },
+  "author": "warnshouse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warnshouse/phonebook-backend/issues"
+  },
+  "homepage": "https://github.com/warnshouse/phonebook-backend#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
